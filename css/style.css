@@ -1,0 +1,115 @@
+html, body{
+    margin:0;
+    padding:0;
+    height:97%;
+    background: url(../images/pixel.png) repeat;
+    font-family: 'Press Start 2P', sans-serif;
+}
+.logo{
+    margin: 60px auto;
+    position: relative;
+    width: 203px;
+    height: 287px;
+}
+.container{
+    width:100%;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.logo-image{
+    margin-top:36px;
+    width: 229px;
+    height: 60px;
+}
+paper-tabs paper-ripple #ink{
+    color:#FFD300;
+}
+core-header-panel {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    position: fixed;
+    width: 100%;
+    height:64px;
+    bottom: 0;
+}
+core-toolbar {
+    background: #323232;
+    color: #DDDDDD;
+    height:64px;
+}
+synck-pixel:hover{
+    opacity:0.6;
+}
+paper-tab:hover{
+    color:#FFD300;
+}
+paper-tabs {
+    width: 100%;
+    margin-top:10px;
+    height:64px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+paper-tab::shadow #ink {
+    color:#FFD300;
+}
+paper-tabs::shadow #selectionBar {
+  background-color: #FFD300;
+}
+paper-dialog{
+    font-family: 'Helvetica', sans-serif;
+    background:#DDDDDD;
+    color:#323232;
+}
+
+.social-icons{
+    width: 32px;
+    height: 32px;
+    background: url('../images/social-sprite.png');
+    margin:-10px 6px 0 6px;
+    float:left;
+    cursor: pointer;
+}
+.social-icons:hover{
+    background-position-y: 0;
+}
+.google{
+    background-position: 0px 32px;
+}
+.facebook{
+    background-position: 32px 32px;
+}
+.twitter{
+    background-position: 64px 32px;
+}
+.social{
+	width: 136px;
+	position:relative;
+    margin:85px auto;
+}
+.hidden-blocks{
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+.hidden-blocks#a1{
+    left:0;
+}
+.hidden-blocks#a2{
+    left:20%;
+}
+.hidden-blocks#a3{
+    left:40%;
+}
+.hidden-blocks#a4{
+    left:60%;
+}
+.hidden-blocks#a5{
+    left:80%;
+}
